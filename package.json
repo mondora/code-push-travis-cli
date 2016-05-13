@@ -4,7 +4,7 @@
   "description": "Automatic ci deploy of react-native app with code-push",
   "main": "lib/index.js",
   "bin": {
-    "code-push-travis": "./lib/index.js"
+    "code-push-travis": "./lib/bin/index.js"
   },
   "scripts": {
     "build": "babel src --out-dir lib",
