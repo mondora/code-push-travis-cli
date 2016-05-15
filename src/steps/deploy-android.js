@@ -6,6 +6,6 @@ function targetBinary () {
 }
 
 export default function codepushAndroidDeploy (argv) {
-    sh(`code-push release-react ${pkg.name}-android android --des ${argv.description} -m ${argv.mandatory} ${targetBinary(argv)}`, {stdio: [0, 1, 2]});
+    sh(`code-push release-react ${pkg.name}-android android --des "${argv.description}" -m ${argv.mandatory} ${targetBinary(argv)}`, {stdio: [0, 1, 2]});
     sh(`code-push deployment ls ${pkg.name}-android`, {stdio: [0, 1, 2]});
 }
