@@ -14,7 +14,6 @@ node_js:
 
 install:
   - npm install
-  - npm install -g code-push-travis-cli
 
 script:
   - code-push-travis

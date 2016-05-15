@@ -2,7 +2,7 @@
 
 import yargs from "yargs";
 
-const pkg = require(`${process.env.TRAVIS_BUILD_DIR}/package.json`);
+import pkg from "../../package.json";
 import codePushTravis from "../index";
 
 const argv = yargs
@@ -25,9 +25,9 @@ const argv = yargs
     })
     .option("p", {
         alias: "platform",
-        default: ["iOS", "android"],
-        describe: "Platform to push [iOS or android]",
-        choices: ["iOS", "android"],
+        default: ["ios", "android"],
+        describe: "Platform to push [ios or android]",
+        choices: ["ios", "android"],
         type: "array"
     })
     .argv;
