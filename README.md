@@ -23,7 +23,3 @@ install:
 script:
   - code-push-travis
 ```
-
-## Todo
-
-Add option for deployment name.

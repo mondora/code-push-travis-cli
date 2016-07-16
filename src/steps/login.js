@@ -1,5 +1,6 @@
-import {execSync as sh} from "child_process";
+import {execSync} from "child_process";
 
 export default function codepushLogin () {
-    sh("code-push login --accessKey $CODE_PUSH_ACCESS_KEY");
+    const codepushAccessKey = process.env.CODE_PUSH_ACCESS_KEY;
+    execSync(`code-push login --accessKey "${codepushAccessKey}"`);
 }
