@@ -5,9 +5,13 @@
 
 # code-push-travis-cli
 
-code-push script for travis-ci.
+code-push cli for travis-ci.
 
 ## Usage
+
+![CLI options](https://cloud.githubusercontent.com/assets/10374360/16896740/5cc09834-4b9c-11e6-8c40-e59edb0f60f6.png)
+
+## Example usage
 
 In your `.travis.yml` file:
 
@@ -16,9 +20,6 @@ language: node_js
 
 node_js:
   - 6
-
-install:
-  - npm install
 
 script:
   - code-push-travis

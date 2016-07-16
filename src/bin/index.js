@@ -9,7 +9,7 @@ const argv = yargs
     .version(pkg.version)
     .help("h")
     .alias("h", "help")
-    .wrap(100)
+    .wrap(170)
     .usage("Usage: $0 <options>")
     .option("b", {
         alias: "branchToDeploy",
