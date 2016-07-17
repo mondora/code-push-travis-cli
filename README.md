@@ -11,6 +11,12 @@ code-push cli for travis-ci.
 
 ![CLI options](https://cloud.githubusercontent.com/assets/10374360/16896740/5cc09834-4b9c-11e6-8c40-e59edb0f60f6.png)
 
+## Configuration
+
+The following environment variables are needed to configure the CLI:
+
+* `CODE_PUSH_ACCESS_KEY` __string__ *required*: the code-push access key for the login
+
 ## Example usage
 
 In your `.travis.yml` file:
