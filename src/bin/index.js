@@ -48,6 +48,12 @@ const argv = yargs
         choices: ["android", "ios"],
         type: "array"
     })
+    .option("tag", {
+        // TODO: change default to true when major version upgrade
+        default: false,
+        describe: "This specifies if you want to deploy a git tag",
+        type: "boolean"
+    })
     .option("targetBinary", {
         alias: "t",
         describe: "The store/binary version of the application you are releasing the update for",

@@ -32,22 +32,23 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.10.1",
-    "babel-core": "^6.10.4",
-    "babel-eslint": "^6.1.2",
-    "babel-plugin-rewire": "^1.0.0-rc-4",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-stage-0": "^6.5.0",
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-plugin-rewire": "^1.0.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
     "chai": "^3.5.0",
     "codecov": "^1.0.1",
-    "eslint": "^3.1.0",
+    "eslint": "^3.7.0",
     "isparta": "^4.0.0",
-    "mocha": "^2.5.3",
-    "sinon": "^1.17.4",
+    "lodash.omit": "^4.5.0",
+    "mocha": "^3.1.0",
+    "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
-    "code-push-cli": "^1.12.1-beta",
-    "yargs": "^4.8.0"
+    "code-push-cli": "^1.12.6-beta",
+    "yargs": "^6.0.0"
   }
 }
