@@ -8,6 +8,10 @@
 
 code-push cli for travis-ci.
 
+## Installation
+
+`npm i --save-dev code-push-travis-cli`
+
 ## Usage
 
 ![CLI options](https://cloud.githubusercontent.com/assets/10374360/19037197/4bf7fb16-8975-11e6-9589-7f550f461f1a.png)
